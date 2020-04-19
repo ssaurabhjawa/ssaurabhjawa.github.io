@@ -4,227 +4,251 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BizLand Theme</title>
+  <title>Quazzu Cloud Hosting</title>
 </head>
 
-<body id="home" class="scrollspy">
+<body>
+  <!-- Header -->
   <header class="main-header">
-    <div class="primary-overlay">
-      <div class="navbar-fixed">
-        <nav class="transparent">
-          <div class="container">
-            <div class="nav-wrapper">
-              <a href="#home" class="brand-logo">BizLand</a>
-              <a href="#" data-activates="mobile-nav" class="button-collapse">
-                <i class="material-icons">menu</i>
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Quazzu</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a class="active-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="solutions.html">Solutions</a>
+            </li>
+            <li>
+              <a href="signup.html">Sign Up</a>
+            </li>
+            <li>
+              <a href="#login-modal" class="btn purple modal-trigger">Login</a>
+            </li>
+            <li>
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook"></i>
               </a>
-              <ul class="right hide-on-med-and-down">
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#testimonials">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-                <li>
-                  <a href="#" class="btn blue">Download</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home grey-text text-darken-4"></i> Home</a>
+            </li>
+            <li>
+              <a href="solutions.html">
+                <i class="fa fa-cog grey-text text-darken-4"></i> Solutions</a>
+            </li>
+            <li>
+              <a href="signup.html">
+                <i class="fa fa-users grey-text text-darken-4"></i> Sign Up</a>
+            </li>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li>
+              <a href="#" class="btn purple">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!-- Side nav -->
-      <ul class="side-nav" id="mobile-nav">
-        <h4 class="blue-grey darken-3 center">BizLand</h4>
-        <li>
-          <a class="divider"></a>
-        </li>
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-      <!-- Showcase -->
-      <div class="showcase container">
-        <div class="row">
-          <div class="col s12 main-text">
-            <h5>You found the...</h5>
-            <h1>Right Place To Start</h1>
-            <p class="flow-text">To take your business to the next level with our services that have taken companies to the fortune 500</p>
-            <br>
-            <a href="#about" class="btn btn-large white black-text">Learn More</a>
-            <a href="#contact" class="white-text">
-              <i class="material-icons medium scroll-icon">arrow_drop_down_circle</i>
-            </a>
-          </div>
+    </nav>
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome To Quazzu</h5>
+          <h1>Build For The Future</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit deserunt quos provident aliquam inventore.</p>
+          <br>
+          <br>
+          <a href="solutions.html" class="btn btn-large white purple-text">Learn More</a>
+          <a href="signup.html" class="btn btn-large purple white-text">Sign Up</a>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Section: Boxes -->
-  <section class="section-boxes center">
-    <div class="row">
-      <div class="col s12 m6 l3 blue white-text box">
-        <i class="material-icons medium">show_chart</i>
-        <h4>Grow Your Business</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut
-          eaque et?</p>
-      </div>
-      <div class="col s12 m6 l3 purple white-text box">
-        <i class="material-icons medium">people</i>
-        <h4>Professional Advisors</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut
-          eaque et?</p>
-      </div>
-      <div class="col s12 m6 l3 teal white-text box">
-        <i class="material-icons medium">verified_user</i>
-        <h4>Secure Your Company</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut
-          eaque et?</p>
-      </div>
-      <div class="col s12 m6 l3 amber darken-4 white-text box">
-        <i class="material-icons medium">account_balance</i>
-        <h4>Multiply Your Income</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut
-          eaque et?</p>
+  <!-- Section: Icon Boxes -->
+  <section class="section section-icons center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="fa fa-user fa-3x deep-purple-text text-darken-2"></i>
+            <h5 class="grey-text text-darken-4">Free Account</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, suscipit!</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="fa fa-database fa-3x deep-purple-text text-darken-2"></i>
+            <h5 class="grey-text text-darken-4">NoSQL Databases</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, suscipit!</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="fa fa-bolt fa-3x deep-purple-text text-darken-2"></i>
+            <h5 class="grey-text text-darken-4">Fast Conections</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, suscipit!</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Section: About -->
-  <section id="about" class="section section-about grey lighten-3 center scrollspy">
+  <section class="section section-about grey lighten-4">
     <div class="container">
-      <h2>About BizLand</h2>
-      <p class="flow-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit, at repellendus consequatur neque placeat
-        esse explicabo voluptas reprehenderit nobis?</p>
       <div class="row">
         <div class="col s12 m6">
-          <img src="img/people.jpg" alt="" class="responsive-img circle">
+          <h3>
+            <span class="deep-purple-text text-darken-1">About</span> Us</h3>
+          <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid odio eum magnam aut at voluptates omnis sint reiciendis
+            dolorem recusandae.</p>
         </div>
-        <div class="col s12 m5 offset-m1">
-          <br>
-          <ul class="collection with-header z-depth-4">
-            <li class="collection-header">
-              <h5>Services</h5>
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i> Business Consultation
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i> Financial Analytics
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i> Security Services
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i> Marketing & Advertising
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i> Internet Services
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i> Accounting
-            </li>
-          </ul>
+        <div class="col s12 m6">
+          <img src="img/tech.jpg" alt="" class="circle responsive-img">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section: Testimonials -->
-  <section id="testimonials" class="section section-testimonials blue white-text center scrollspy">
-    <div class="container">
-      <h2>What Our Clients Say</h2>
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="card grey lighten-4 black-text z-depth-4">
-            <div class="card-content">
-              <p>
-                <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi reprehenderit dolore recusandae, quam voluptatum
-                  est deserunt. Quae, quasi beatae!</em>
-              </p>
-            </div>
-            <div class="card-action">
-              <p>John Doe From ABC, INC</p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card grey lighten-4 black-text z-depth-4">
-            <div class="card-content">
-              <p>
-                <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi reprehenderit dolore recusandae, quam voluptatum
-                  est deserunt. Quae, quasi beatae!</em>
-              </p>
-            </div>
-            <div class="card-action">
-              <p>Sharon Johnson From XYZ, INC</p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card grey lighten-4 black-text z-depth-4">
-            <div class="card-content">
-              <p>
-                <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi reprehenderit dolore recusandae, quam voluptatum
-                  est deserunt. Quae, quasi beatae!</em>
-              </p>
-            </div>
-            <div class="card-action">
-              <p>Wayne Jackson From 123, INC</p>
-            </div>
+  <!-- Section: Developers -->
+  <section class="section section-developers white-text">
+    <div class="primary-overlay valign-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center">
+            <h3>For Developers, By Developers</h3>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section: Contact -->
-  <section id="contact" class="section section-contact center scrollspy">
-    <div id="googlemap"></div>
+  <!-- Section: Languages -->
+  <section class="section section-language grey lighten-4">
     <div class="container">
       <div class="row">
-        <div class="col s12 m6 offset-m6">
-          <div class="card-panel z-depth-5">
-            <h4>Contact Us</h4>
-            <div class="input-field">
-              <input type="text" id="name" placeholder="Name">
-              <label for="name">Name</label>
+        <h4 class="center">Work With
+          <span class="deep-purple-text text-darken-1"> Any Language</span>
+        </h4>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col s2">
+            <img src="img/python-logo.png" class="responsive-img" alt="">
+          </div>
+          <div class="col s2">
+            <img src="img/ruby-logo.png" class="responsive-img" alt="">
+          </div>
+          <div class="col s2">
+            <img src="img/php-logo.png" class="responsive-img" alt="">
+          </div>
+          <div class="col s2">
+            <img src="img/node-logo.png" class="responsive-img" alt="">
+          </div>
+          <div class="col s2">
+            <img src="img/c-sharp-logo.png" class="responsive-img" alt="">
+          </div>
+          <div class="col s2">
+            <img src="img/java-logo.png" class="responsive-img" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Podcast -->
+  <section class="section section-podcast white-text">
+    <div class="primary-overlay valign-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8">
+            <h4>Listen to the Quazzu Podcast</h4>
+            <p>Every Thursday at 5pm EST</p>
+          </div>
+          <div class="col s12 m4">
+            <a href="#" class="btn purple btn-large">
+              <i class="fa fa-podcast"></i> Listen
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Testimonial -->
+  <section class="section section-testimonial grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item" href="#one!">
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat assumenda ad minima reiciendis vitae fuga,
+                dicta ipsa sit maxime aperiam quo animi expedita adipisci officia hic, odio omnis temporibus earum?"
+                <p>
+                  <em>- John Doe From Microsystems</em>
+                </p>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read More</a>
+              </div>
             </div>
-            <div class="input-field">
-              <input type="email" id="email" placeholder="Email">
-              <label for="email">Email</label>
+            <div class="carousel-item" href="#two!">
+              <h2>Testimonial 2</h2>
+              <p class="flow-text">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat assumenda ad minima reiciendis vitae fuga,
+                dicta ipsa sit maxime aperiam quo animi expedita adipisci officia hic, odio omnis temporibus earum?"
+                <p>
+                  <em>- Mike SMith From Edge INC</em>
+                </p>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read More</a>
+              </div>
             </div>
-            <div class="input-field">
-              <input type="text" id="phone" placeholder="Phone Number">
-              <label for="phone">Phone</label>
+            <div class="carousel-item" href="#three!">
+              <h2>Testimonial 3</h2>
+              <p class="flow-text">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat assumenda ad minima reiciendis vitae fuga,
+                dicta ipsa sit maxime aperiam quo animi expedita adipisci officia hic, odio omnis temporibus earum?"
+                <p>
+                  <em>- Karen Williams from Techsoft</em>
+                </p>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read More</a>
+              </div>
             </div>
-            <div class="input-field">
-              <textarea class="materialize-textarea" id="message" placeholder="Message"></textarea>
-              <label for="message">Message</label>
-            </div>
-            <input type="submit" value="Submit" class="btn blue-grey">
           </div>
         </div>
       </div>
@@ -232,105 +256,71 @@
   </section>
 
   <!-- Footer -->
-  <footer class="page-footer blue-grey darken-1">
+  <footer class="page-footer deep-purple lighten-1">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5>Location</h5>
-          <p>Bizland, INC</p>
-          <p>555 Somewhere Drive, Boston MA</p>
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus, hic id quod enim voluptate </p>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
             <li>
-              <a class="white-text" href="#home">Home</a>
+              <a class="grey-text text-lighten-3" href="index.html">Home 1</a>
             </li>
             <li>
-              <a class="white-text" href="#about">About</a>
+              <a class="grey-text text-lighten-3" href="solutions.html">Solutions</a>
             </li>
             <li>
-              <a class="white-text" href="#testimonials">Testimonials</a>
+              <a class="grey-text text-lighten-3" href="signup.html">Signup</a>
             </li>
-            <li>
-              <a class="white-text" href="#contact">Contact</a>
-            </li>
+
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright blue-grey darken-4">
+    <div class="footer-copyright deep-purple darken-1">
       <div class="container">
-        BizLand Theme © 2018
-        <a class="grey-text text-lighten-4 right" href="#!">
-          <i class="material-icons left">keyboard_arrow_up</i> Back To Top
-        </a>
+        Quazzu &copy; 2018
+        <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
       </div>
     </div>
   </footer>
 
 
+  <!-- Login Modal -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close btn grey">
+        <i class="fa fa-sync"></i> Reset Password</a>
+      <a href="#!" class="modal-action modal-close btn purple">
+        <i class="fa fa-lock"></i> Login</a>
+    </div>
+  </div>
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="http://maps.googleapis.com/maps/api/js"></script>
   <script>
     $(document).ready(function () {
-      // Init Sidenav
+      $('.carousel.carousel-slider').carousel({ fullWidth: true });
       $('.button-collapse').sideNav();
-
-      // Init Scrollspy
-      $('.scrollspy').scrollSpy();
-
-      // ScrollFire
-      const options = [
-        {
-          selector: '.main-text', offset: 0, callback: function (el) {
-            Materialize.fadeInImage($(el));
-          }
-        },
-        {
-          selector: '.navbar-fixed', offset: 1500, callback: function () {
-            $('nav').removeClass('transparent');
-            $('nav').addClass('blue-grey darken-3');
-          }
-        }
-      ];
-
-      Materialize.scrollFire(options);
-
-      const position = [42.361145, -71.057083];
-      const centerPosition = [42.377815, -70.981133];
-
-      function showGoogleMaps() {
-        // Map positions
-        const latLng = new google.maps.LatLng(position[0], position[1]);
-        const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
-
-        // Map options
-        const mapOptions = {
-          zoom: 12,
-          streetViewControl: false,
-          scaleControl: true,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          center: centerLatLng
-        }
-
-        // Create map
-        map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
-
-        // Show Marker
-        marker = new google.maps.Marker({
-          position: latLng,
-          map: map,
-          draggable: false,
-          animation: google.maps.Animation.DROP
-        });
-      }
-
-      // Maps event
-      google.maps.event.addDomListener(window, 'load', showGoogleMaps);
-
+      $('.modal').modal();
     });
   </script>
 </body>
